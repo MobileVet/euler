@@ -9,7 +9,7 @@ describe('sumOfMultiplesLessThan', () => {
     expect(sut.sumOfMultiplesLessThan(3, 6)).toEqual(3)
   })
 
-  it('returns 2*factor when 3*factor >= max', () => {
-    expect(sut.sumOfMultiplesLessThan(3, 9)).toEqual(6)
+  it('returns 3*factor when 3*factor >= max', () => {
+    expect(sut.sumOfMultiplesLessThan(3, 9)).toEqual(9)
   })
 })
