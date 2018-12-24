@@ -1,4 +1,4 @@
-const sumOfMultiplesLessThan = (factor, max) => {
+const sumOfMultiplesLessThan_count = (factor, max) => {
   let currentValue = factor,
       sum = 0
   while (currentValue < max) {
@@ -9,5 +9,6 @@ const sumOfMultiplesLessThan = (factor, max) => {
 }
 
 module.exports = {
-  sumOfMultiplesLessThan
+  sumOfMultiplesLessThan: sumOfMultiplesLessThan_count,
+  sumOfMultiplesLessThan_count
 }
