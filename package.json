@@ -1,0 +1,24 @@
+{
+  "author": "Splitmo LLC",
+  "name": "euler",
+  "version": "0.0.1",
+  "description": "Project Euler solutions and musings",
+  "main": "main.js",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MobileVet/euler.git"
+  },
+  "engines": {
+    "node": "10.14.2",
+    "npm": "6.4.1"
+  },
+  "scripts": {
+    "start": "node main.js",
+    "test": "(npx tsc --watch --preserveWatchOutput >/dev/null) & npx jest --watch"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "23.6.0"
+  }
+}
